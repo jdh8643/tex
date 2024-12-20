@@ -1,0 +1,63 @@
+.detail-container {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.edit-form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.edit-form input {
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.expense-detail {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.detail-row {
+  display: flex;
+  margin-bottom: 16px;
+}
+
+.detail-row label {
+  width: 80px;
+  font-weight: bold;
+  color: #666;
+}
+
+.detail-row span {
+  flex: 1;
+}
+
+.button-group {
+  display: flex;
+  gap: 8px;
+  margin-top: 20px;
+}
+
+.button-group button {
+  flex: 1;
+  padding: 8px;
+  border: none;
+  border-radius: 4px;
+  background-color: #40c9b0;
+  color: white;
+  cursor: pointer;
+}
+
+.button-group button:hover {
+  opacity: 0.9;
+}
+
+.button-group button:nth-child(2) {
+  background-color: #ff6b6b;
+}

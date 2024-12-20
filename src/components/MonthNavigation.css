@@ -1,0 +1,41 @@
+.month-navigation {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.month-row {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 8px;
+}
+
+.month-button {
+  padding: 12px;
+  border: 1px solid #eee;
+  border-radius: 8px;
+  background-color: #f8f9fa;
+  cursor: pointer;
+  width: 100%;
+  text-align: center;
+  font-size: 14px;
+  transition: all 0.2s ease;
+}
+
+.month-button:hover {
+  background-color: #e9ecef;
+}
+
+.month-button.active {
+  background-color: #40c9b0;
+  color: white;
+  border-color: #40c9b0;
+}
