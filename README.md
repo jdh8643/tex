@@ -59,13 +59,4 @@ src/
 └── App.jsx            # 메인 앱 컴포넌트
 ```
 
-## 빌드
 
-프로덕션 빌드를 생성하려면:
-```bash
-yarn build
-```
-
-## 라이선스
-
-MIT License
