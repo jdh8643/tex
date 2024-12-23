@@ -12,9 +12,9 @@
 
 ## 기술 스택
 
-- **Frontend**: React 18
+- **Frontend**: React 
 - **Backend**: Supabase
-- **Router**: React Router v7
+- **Router**: React Router 
 - **Styling**: CSS, Styled Components
 - **Build Tool**: Vite
 - **Package Manager**: Yarn
