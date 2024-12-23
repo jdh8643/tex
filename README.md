@@ -12,37 +12,13 @@
 
 ## 기술 스택
 
-- **Frontend**: React 18
+- **Frontend**: React 
 - **Backend**: Supabase
-- **Router**: React Router v7
+- **Router**: React Router 
 - **Styling**: CSS, Styled Components
 - **Build Tool**: Vite
 - **Package Manager**: Yarn
 
-## 시작하기
-
-1. 저장소 클론
-```bash
-git clone [repository-url]
-cd my-app
-```
-
-2. 의존성 설치
-```bash
-yarn install
-```
-
-3. 환경 변수 설정
-`.env.local` 파일을 생성하고 Supabase 설정을 추가합니다:
-```
-VITE_SUPABASE_URL=your_supabase_url
-VITE_SUPABASE_ANON_KEY=your_supabase_anon_key
-```
-
-4. 개발 서버 실행
-```bash
-yarn dev
-```
 
 ## 프로젝트 구조
 
@@ -59,13 +35,4 @@ src/
 └── App.jsx            # 메인 앱 컴포넌트
 ```
 
-## 빌드
 
-프로덕션 빌드를 생성하려면:
-```bash
-yarn build
-```
-
-## 라이선스
-
-MIT License
